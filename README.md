@@ -1,31 +1,22 @@
-# vue-project
+# Парсинг сайта
 
-Это проект на vue js, в котором можно посмотреть прогноз погоды в любом городе. Просто необходимо в поиск ввести нужный вам город, и сразу же будет доступна информация о погоде. 
+Этот проект представляет собой веб-скрапер, написанный на JavaScript с использованием Node.js и нескольких библиотек, таких как Axios, Cheerio, JSON2CSV и Puppeteer. Скрапер извлекает информацию о недвижимости с веб-сайта 
+[slavna44](https://slavna44.ru/propertys?page=1) и сохраняет ее в формате CSV.
 
-## Recommended IDE Setup
+## Загрузка Node.js
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Чтобы начать работать с проектом необходимо скачать [Node.js](https://nodejs.org/en) 
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Загрузка проекта
+### Установка зависимостей
 
 ```sh
-npm install
+npm install axios cheerio json2csv fs puppeteer
 ```
 
-### Compile and Hot-Reload for Development
+### Запуск проекта
 
 ```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
+node script.js
 ```
 
 ## Лицензия

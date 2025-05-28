@@ -25,5 +25,9 @@ npm install axios cheerio json2csv fs puppeteer
 node script
 ```
 
+## Результат
+
+![Изображение 1](photo.png)
+
 ## Лицензия
 [MIT](https://opensource.org/license/mit/) Copyright (c) 2024 - forever Azer5555
